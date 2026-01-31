@@ -1,0 +1,213 @@
+{
+    "campus": {
+      "name": "GLA University",
+      "location": "Mathura, Uttar Pradesh, India",
+      "operating_hours": {
+        "day_start": "06:00",
+        "night_start": "20:00"
+      }
+    },
+  
+    "infrastructure": {
+      "academic_blocks": [
+        "Main Academic Block",
+        "Engineering Block",
+        "Management Block",
+        "Pharmacy Block",
+        "Biotech Block",
+        "Research Block"
+      ],
+      "hostels": [
+        "Girls Hostel A",
+        "Girls Hostel B",
+        "Boys Hostel A",
+        "Boys Hostel B",
+        "Yamuna Hostel",
+        "Ganga Hostel",
+        "KC Hostel"
+      ],
+      "laboratories": [
+        "Computer Lab",
+        "AI Lab",
+        "Cyber Security Lab",
+        "Electronics Lab",
+        "Physics Lab",
+        "Chemistry Lab",
+        "Mechanical Workshop"
+      ],
+      "libraries": [
+        "Central Library",
+        "Departmental Library"
+      ],
+      "sports_complexes": [
+        "Indoor Sports Complex",
+        "Outdoor Sports Ground",
+        "Cricket Ground",
+        "Football Ground",
+        "Basketball Court",
+        "Volleyball Court",
+        "Badminton Court"
+      ],
+      "administrative_offices": [
+        "Admin Office",
+        "Dean Office",
+        "Examination Cell",
+        "Counseling Cell",
+        "Medical Center",
+        "Proctorial cell"
+      ],
+      "parking_zones": [
+        "Student Parking",
+        "Faculty Parking",
+        "Two-Wheeler Parking",
+        "Bus Parking"
+      ],
+      "other_zones": [
+        "Cafeteria",
+        "Student Activity Center",
+        "Auditorium",
+        "Open Air Theatre",
+        "Main Gate",
+        "Service Gate",
+        "Back Gate",
+        "Reception Area",
+        "Helipad",
+        "GD Subway"
+      ]
+    },
+  
+    "risk_zones": {
+      "high": [
+        "Yamuna Hostel",
+        "Ganga Hostel",
+        "KC Hostel",
+        "Boys Hostel A",
+        "Boys Hostel B",
+        "Student Parking",
+        "Faculty Parking",
+        "Two-Wheeler Parking",
+        "Bus Parking",
+        "Service Gate",
+        "Back Gate",
+        "Open Air Theatre (Night)",
+        "Cricket Ground (After 8 PM)",
+        "Football Ground (After 8 PM)",
+        "Hostel Corridors (Night)",
+        "GD Subway"
+      ],
+      "medium": [
+        "Computer Lab",
+        "AI Lab",
+        "Cyber Security Lab",
+        "Electronics Lab",
+        "Physics Lab",
+        "Chemistry Lab",
+        "Mechanical Workshop",
+        "Indoor Sports Complex",
+        "Basketball Court",
+        "Volleyball Court",
+        "Badminton Court",
+        "Central Library",
+        "Cafeteria",
+        "Student Activity Center",
+        "Auditorium"
+      ],
+      "low": [
+        "Main Academic Block",
+        "Engineering Block",
+        "Management Block",
+        "Pharmacy Block",
+        "Biotech Block",
+        "Research Block",
+        "Admin Office",
+        "Dean Office",
+        "Examination Cell",
+        "Faculty Rooms",
+        "Staff Offices",
+        "Departmental Library",
+        "Main Gate (Day Time)",
+        "Reception Area",
+        "Counseling Cell",
+        "Medical Center"
+      ]
+    },
+  
+    "emergency_contacts": {
+      "campus_security": "+91-XXXXXXXXXX",
+      "health_center": "+91-XXXXXXXXXX",
+      "fire_safety_officer": "+91-XXXXXXXXXX",
+      "women_safety_cell": "+91-XXXXXXXXXX",
+      "anti_ragging_cell": "+91-XXXXXXXXXX",
+      "counseling_cell": "+91-XXXXXXXXXX",
+      "external": {
+        "police": "112",
+        "ambulance": "108",
+        "fire": "101"
+      }
+    },
+  
+    "incident_policies": {
+      "fire": [
+        "Fire Safety Officer",
+        "Campus Security",
+        "External Fire Brigade"
+      ],
+      "harassment": [
+        "Women Safety Cell",
+        "Internal Complaints Committee",
+        "Campus Security"
+      ],
+      "medical": [
+        "University Health Center",
+        "Campus Security",
+        "External Ambulance"
+      ],
+      "theft": [
+        "Campus Security",
+        "Local Police"
+      ],
+      "lab_hazard": [
+        "Lab Incharge",
+        "Safety Officer",
+        "Campus Security"
+      ],
+      "cyberbullying": [
+        "IT Cell",
+        "Counseling Cell",
+        "Student Grievance Committee"
+      ]
+    },
+  
+    "user_roles": {
+      "student": {
+        "can_report": true,
+        "can_view_status": true,
+        "anonymous_allowed": true
+      },
+      "faculty": {
+        "can_report": true,
+        "can_view_status": true
+      },
+      "staff": {
+        "can_report": true,
+        "can_view_status": true
+      },
+      "security": {
+        "can_view_all": true,
+        "can_escalate": true
+      }
+    },
+  
+    "privacy_rules": {
+      "anonymous_reporting": true,
+      "location_consent_required": true,
+      "identity_masking": true
+    },
+  
+    "governance": {
+      "student_grievance_committee": "Student Grievance Committee",
+      "internal_complaints_committee": "Internal Complaints Committee",
+      "anti_ragging_committee": "Anti-Ragging Cell",
+      "dean_student_affairs": "Dean Student Affairs"
+    }
+  }
